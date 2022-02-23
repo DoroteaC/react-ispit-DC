@@ -1,0 +1,35 @@
+.border-15 {
+  border-radius: 15px;
+}
+.b-info {
+    background-color: #7dd3fc;
+    color: smokewhite;
+  }
+.d-flex {
+    display:flex;
+}
+.d-flex-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-col-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-r10 {
+  row-gap: 10px;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+
+.w-30 {
+    width:30%;
+}
