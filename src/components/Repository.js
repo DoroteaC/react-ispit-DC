@@ -3,7 +3,7 @@ function Repository({ repository }) {
   return repository != undefined ? (
     <div className="">
       <div id="userInfo" className="w-full">
-        <span>{repository.name}</span>
+        <div className="rounded-full bg-sky-50">{repository.name}</div>
       </div>
     </div>
   ) : (

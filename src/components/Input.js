@@ -55,7 +55,7 @@ class InputUsername extends Component {
         <div>
           <form
             onSubmit={this.submitHandler}
-            className="d-flex-col-cc gap-r10 form-container border-15 bg-sky-400"
+            className="d-flex-col-cc gap-r10 form-container border-15 bg-sky-400 margin-top-10"
           >
             <input
               type="text"

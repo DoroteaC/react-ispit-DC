@@ -7,7 +7,7 @@ function User({ profile, repositories }) {
         <img src={profile.avatar_url} alt="" className="rounded-full h-20 " />
         <h1>{profile.name}</h1>
         <span className="text-center">{profile.location}</span>
-        <span>{profile.bio}</span>
+        <span className="text-center divider-1 mt-2">{profile.bio}</span>
       </div>
       <div id="userRepo" className="d-flex-col-cc width-70">
         {repositories != undefined ? (
